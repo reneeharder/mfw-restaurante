@@ -134,11 +134,6 @@ nav.navbar {
     color: rgba(149, 147, 147, 0.2);
 }
 
-@media (max-width: 350px) {
-    #our_story {
-        justify-content: center;
-    }
-}
 
 /* REVIEW section */
 
@@ -170,6 +165,12 @@ nav.navbar {
     font-weight: 300;
     font-size: 2em;
     text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+@media (max-width: 768px) {
+    #our_story {
+        justify-content: center;
+    }
 }
 
 /* MENU Section */
