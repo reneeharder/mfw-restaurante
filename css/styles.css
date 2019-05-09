@@ -7,6 +7,10 @@
     margin: 0;
 }
 
+.wrap {
+    min-height: 100vh;
+}
+
 /* NAV Section */
 
 .nav li a:hover , .navbar-default {
@@ -210,7 +214,7 @@ nav.navbar {
 
 .food {
     background-color: #fff;
-    padding-top: 20px 0px; 
+    padding-top: 20px 10px; 
 }
 
 #menu .nav li a:hover {
@@ -233,6 +237,8 @@ nav.navbar {
     background-color: #ff6633;
     color: #fff;
     border: 1px solid;    
+    height: 548px;
+    padding-top: 20px;
 }
 
 .contact_form form {
@@ -276,7 +282,13 @@ address {
     margin-bottom: 25px;
 }
 
+.checkbox {
+    padding-bottom: 40px;
+}
 
+.requiredStar::after {
+    content: '*';
+    color: #000;
 
 @media (max-width: 768px) {
     #our_story {
